@@ -1,0 +1,177 @@
+header {
+    background: #27403C;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the text-content horizontally */
+    position: relative; /* For positioning the image-content */
+    padding: 0 20px; /* Optional: Add padding to the header */
+}
+
+.text-content {
+    text-align: center;
+    flex: 1; /* Allows the text to take up remaining space */
+}
+
+.text-content h1 {
+    margin: 0;
+}
+
+.text-content p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.image-content {
+    position: absolute;
+    right: 20px; /* Pushes the image to the right edge */
+    top: 50%; /* Vertically centers the image */
+    transform: translateY(-50%); /* Corrects vertical alignment due to top: 50% */
+}
+
+.image-content img {
+    max-width: 100px; /* Adjust width as needed */
+    height: auto;
+    border-radius: 25%; /* Optional: make the image circular */
+}
+
+.theme-color {
+    background: #27403C;
+    color: white;     
+}
+
+.colors-fav {
+    color: #213633; 
+    color: #3C3C3C;
+    color: #2B2B2B;
+}
+
+
+.navbar-custom {
+    background-color: #213633; /* Custom background color for navbar */
+}
+.navbar-custom .navbar-brand img {
+    margin-right: 15px; /* Add some space between logo and brand text */
+}
+.navbar-custom .nav-link {
+    color: #ffffff; /* Custom text color for nav links */
+}
+.navbar-custom .nav-link.active {
+    color: #10fb18; /* Custom text color for active link */
+}
+.navbar-custom .nav-link:hover {
+    color: #d4af37; /* Custom text color on hover */
+}
+.navbar-custom .btn-outline-success {
+    border-color: #d4af37; /* Custom border color */
+    color: #d4af37; /* Custom text color */
+}
+.navbar-custom .btn-outline-success:hover {
+    background-color: #d4af37; /* Custom background color on hover */
+    color: #ffffff; /* Custom text color on hover */
+}
+
+/* index */
+.box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.header-box {
+    background-color: #75908b;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 2px solid #dc9702; /* Golden border */
+    border-radius: 15px; /* Rounded corners */
+}
+.education-box,
+.skills-box {
+    background-color: #f8f9fa;
+}
+.references-box {
+    background-color: #e9ecef;
+}
+
+
+.research-para {
+    /* background-color: #e9ecef; */
+    /* border: 2px solid #dc9702; */
+    font-size: 1.2rem;
+    /* border-radius: 8px; */
+    padding: 15px;
+    margin-bottom: 20px;
+    /* box-shadow: 0 4px 6px rgba(0,0,0,0.1); */
+}
+
+.research-boxx {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.research-boxxx {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 1px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+
+.research-box {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.rounded-image {
+    max-width: 450px;
+    height: auto;
+    border-radius: 15%;
+    margin-right: 15px;
+}
+
+.content {
+    flex: 1;
+    padding-left: 15px; /* Ensure text aligns with image start */
+}
+
+.research-para {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+.research-box a {
+    color: #007bff;
+    text-decoration: none;
+}
+.research-box a:hover {
+    text-decoration: underline;
+}
+
+.thumbnail {
+    max-width: 200px;
+    height: 300px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.thumbnail:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
