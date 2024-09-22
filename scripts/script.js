@@ -1,19 +1,19 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Fetch and insert header
-    fetch('/home/elements/header.html')
+    fetch('/portfolio/home/elements/header.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('header').innerHTML = data;
 
             // Fetch and insert navbar
-            return fetch('/home/elements/navbar.html');
+            return fetch('/portfolio/home/elements/navbar.html');
         })
         .then(response => response.text())
         .then(data => {
             document.getElementById('navbar').innerHTML = data;
 
             // Fetch and insert footer
-            return fetch('/home/elements/footer.html');
+            return fetch('/portfolio/home/elements/footer.html');
         })
         .then(response => response.text())
         .then(data => {
